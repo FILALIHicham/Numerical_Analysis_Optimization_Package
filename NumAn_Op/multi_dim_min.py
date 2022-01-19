@@ -192,7 +192,7 @@ def DFP(H,alphak,d,grd0, grd1):
     return H + A + B
 
 
-# 4.Quasi-Newton with DFP:
+# 4.Quasi-Newton with DFP and armijo:
 
 def quasiNewton(f, X0, delta = .01):
     """
