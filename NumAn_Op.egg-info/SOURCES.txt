@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+NumAn_Op/__init__.py
+NumAn_Op/multi_dim_min.py
+NumAn_Op/one_dim_min.py
+NumAn_Op/sys_eq.py
+NumAn_Op.egg-info/PKG-INFO
+NumAn_Op.egg-info/SOURCES.txt
+NumAn_Op.egg-info/dependency_links.txt
+NumAn_Op.egg-info/top_level.txt
