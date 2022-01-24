@@ -9,7 +9,6 @@ using both the search with elimination and search with interpolation methods.
 #================================================\\Libraries needed//================================================
 
 import numpy as np
-import math
 
 #=======================================\\Searching with elimination methods//=======================================
 
@@ -252,12 +251,12 @@ def golden_section( f , a , b , e ):
 
 #======================================\\Searching with interpolation methods//======================================
 
-# 1.NEWTON-RAPSON METHOD:
+# 1.NEWTON-RAPHSON METHOD:
 
-def newton_rapson( fp , fpp , xi , epsilon , max ):
+def newton_raphson( fp , fpp , xi , epsilon , max ):
     """
-    newton_rapson( fp , fpp , xi , epsilon , max ). 
-    This is a root-finding method that finds the minimum of a function (f) using newton-rapson method.
+    newton_raphson( fp , fpp , xi , epsilon , max ). 
+    This is a root-finding method that finds the minimum of a function (f) using newton-raphson method.
 
     Parameters:
     fp (function): the first derivative of the function to minimize
