@@ -267,7 +267,7 @@ Writer = animation.writers['ffmpeg']
 writer = Writer(fps=3, metadata=dict(artist='FILALI Hicham'), bitrate=-1)
 ax.view_init(15, 25)
 plt.title("Multi-Variable Function Optimization Comparison.")
-#plt.show()
-anim.save('3D_Comparison.gif',writer=writer)
+plt.show()
+#anim.save('3D_Comparison.gif',writer=writer)
 
 #====================================================================================================================
