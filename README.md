@@ -14,11 +14,11 @@ Instructions:
 2. Modules:
    There are 3 modules in this package: 
    
-      - [one_dim_min.py](/NumAn_Op/one_dim_min.py) 
+      - [one_dim_min.py](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/NumAn_Op/one_dim_min.py) 
       
-      - [sys_eq.py](/NumAn_Op/sys_eq.py)
+      - [sys_eq.py](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/NumAn_Op/sys_eq.py)
       
-      - [multi_dim_min.py](/NumAn_Op/multi_dim_min.py)
+      - [multi_dim_min.py](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/NumAn_Op/multi_dim_min.py)
       
    To use them you can import them as following:
    
@@ -64,27 +64,27 @@ III. Multi-dimensional function minimization algorithms:
     - Quasi-Newton with DFP and armijo
 
 # Visualization of some the progress of some algorithms
-Following are some plots visualizing the progress of some algorithms that the package contains. You can find all the scripts to make them in the [Plotting_Scripts](/Plotting_Scripts/) folder in this repository.
+Following are some plots visualizing the progress of some algorithms that the package contains. You can find all the scripts to make them in the [Plotting_Scripts](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/tree/main/Plotting_Scripts) folder in this repository.
 
 1. One dimensional function minimization comparison:
    - Elimination methods comparison
    
 
-      ![Function Optimization Comparison. (Elimination Methods)](/Elimination_Methods_Comparison.gif)
+      ![Function Optimization Comparison. (Elimination Methods)](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/Elimination_Methods_Comparison.gif)
       
       
       
    - Interpolation methods comparison
    
 
-      ![Function Optimization Comparison. (Interpolation Methods)](/Interpolation_Methods_Comparison.gif)
+      ![Function Optimization Comparison. (Interpolation Methods)](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/Interpolation_Methods_Comparison.gif)
       
       
 2. Mutli-Variable function minimization comparison:
 
 
-      ![Multi-dimensional function minimization algorithms comparison](/3D_Comparison.gif)
+      ![Multi-dimensional function minimization algorithms comparison](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/blob/main/3D_Comparison.gif)
       
-Note: You won't get the same progess path for the Adagrad method if you try to use the scripts in the [Plotting_Scripts](/Plotting_Scripts/) folder, and this is due to the fact that Adagrad is a variant of the stochastic gradient descent method, this means that it takes a random starting point each time.
+Note: You won't get the same progess path for the Adagrad method if you try to use the scripts in the [Plotting_Scripts](https://github.com/FILALIHicham/Numerical_Analysis_Optimization_Package/tree/main/Plotting_Scripts) folder, and this is due to the fact that Adagrad is a variant of the stochastic gradient descent method, this means that it takes a random starting point each time.
 
 

@@ -16,7 +16,7 @@ import numpy as np
 
 # Search with fixed step size:
 
-def fixed_step_size( f , guess , step ):
+def fixed_step_size( f , guess , step=.01):
     """
     fixed_step_size( f , guess , step ). 
     This method finds the minimum of a function (f) using the fixed step size search.
@@ -42,7 +42,7 @@ def fixed_step_size( f , guess , step ):
 
 # Search with accelerated step size:
 
-def accelerated_step_size( f , guess , step ):
+def accelerated_step_size( f , guess , step=.01 ):
     """
     accelerated_step_size( f , guess , step ). 
     This method finds the minimum of a function (f) using the accelerated step size search.
@@ -74,7 +74,7 @@ def accelerated_step_size( f , guess , step ):
 
 # 2.EXHAUSTIVE SEARCH:
 
-def exhaustive_search( f , a , b , n ):
+def exhaustive_search( f , a , b , n=20 ):
     """
     exhaustive_search( f , a , b , n ). 
     This method finds the minimum of a function (f) using exhaustive search.
@@ -100,7 +100,7 @@ def exhaustive_search( f , a , b , n ):
 
 # 3.DICHOTOMOUS SEARCH:
 
-def dichotomous_search( f, a , b , delta ):
+def dichotomous_search( f, a , b , delta=0.01 ):
     """
     dichotomous_search( f, a , b , delta ). 
     This method finds the minimum of a function (f) using dichotomous search.
@@ -127,7 +127,7 @@ def dichotomous_search( f, a , b , delta ):
 
 # 4.INTERVAL HALVING METHOD:
 
-def interval_halving( f , a , b , e ):
+def interval_halving( f , a , b , e=0.01 ):
     """
     interval_halving( f , a , b , e ). 
     This method finds the minimum of a function (f) using interval halving.
@@ -183,7 +183,7 @@ def fib( n ):
     return f
 
 
-def fibonacci_method( f , a , b , n ):
+def fibonacci_method( f , a , b , n=10 ):
     """
     fibonacci_method( f , a , b , n ).
     This method finds the minimum of a function (f) using Fibonacci method.
@@ -222,7 +222,7 @@ def fibonacci_method( f , a , b , n ):
 # 6.GOLDEN SECTION METHOD:
 
 
-def golden_section( f , a , b , e ):
+def golden_section( f , a , b , e=0.01 ):
     """
     golden_section( f , a , b , e ). 
     This method finds the minimum of a function (f) using golden section method.
@@ -253,7 +253,7 @@ def golden_section( f , a , b , e ):
 
 # 1.NEWTON-RAPHSON METHOD:
 
-def newton_raphson( fp , fpp , xi , epsilon , max ):
+def newton_raphson( fp , fpp , xi , epsilon=1e-5 , max=100 ):
     """
     newton_raphson( fp , fpp , xi , epsilon , max ). 
     This is a root-finding method that finds the minimum of a function (f) using newton-raphson method.
@@ -286,7 +286,7 @@ def newton_raphson( fp , fpp , xi , epsilon , max ):
 
 # 2.QUASI-NEWTON METHOD:
 
-def quasi_newton( f , xi , step , epsilon , max ):
+def quasi_newton( f , xi , step , epsilon=1e-5 , max=100 ):
     """
     quasi_newton( f , xi , step , epsilon , max ). 
     This is a root-finding method that finds the minimum of a function (f) using quasi-newton method.
@@ -326,7 +326,7 @@ def quasi_newton( f , xi , step , epsilon , max ):
 
 # 3.SECANT METHOD:
 
-def secant( fp , a , b , epsilon ):
+def secant( fp , a , b , epsilon=1e-5 ):
     """
     secant( fp , a , b , epsilon ). 
     This is a root-finding method that finds the minimum of a function (f) using secant method.
